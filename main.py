@@ -37,6 +37,7 @@ class Registro(Screen):
         Window.clearcolor = (1,1,1,1)
 
         l = FloatLayout()
+        ln = Label(text='Nome:', )
 
 class Sm(App):
     def build(self):
